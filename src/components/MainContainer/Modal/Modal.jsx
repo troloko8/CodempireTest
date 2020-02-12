@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 function Modal(props) {
 
   const reset = () => {
-    //reset couner
     props.setInputStatus(false)
     props.setModalDisplay('none')
     props.resetResultCorrectAnswer(0)

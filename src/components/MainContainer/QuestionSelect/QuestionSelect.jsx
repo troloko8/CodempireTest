@@ -12,7 +12,7 @@ function QuestionSelect(props) {
   };
 
   const checkModal = (e) => {
-    e.target.selectedIndex == 0
+    e.target.selectedIndex === 0
       ? checkValue.status = false
       : checkValue.status = true
     props.chekedInputs(checkValue)
@@ -26,9 +26,6 @@ function QuestionSelect(props) {
   }
 
   localStorage.setItem('selectCurrent', counterAnswers)
-  // useEffect(() => {
-  //   if (props.modal.inputStatus === true) props.checkingAnswer(counterAnswers)
-  // }, [props.modal.inputStatus])
 
   useEffect(() => {
     return () => {

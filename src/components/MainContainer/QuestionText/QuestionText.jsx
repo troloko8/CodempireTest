@@ -7,26 +7,17 @@ function QuestionText(props) {
 
   const [counterAnswers, setCounterAnswers] = useState(0)
 
-  // useEffect(() => {
-  //   inputValue == props.state.correctAnswer && props.modal.inputStatus === true
-  //     ? props.checkingAnswer(1)
-  //     : props.checkingAnswer(0)
-  // }, [props.modal.inputStatus])
-
   const checkValue = {
     num: props.num,
     status: false,
   };
 
   const checkModal = (e) => {
-    // debugger
-    // console.log(typeof (e.target.value) + " " + typeof (props.state.correctAnswer))
-    // console.log(e.target.value  props.state.correctAnswer)
     e.target.value === props.state.correctAnswer[0]
       ? setCounterAnswers(1)
       : setCounterAnswers(0)
 
-    e.target.value == ''
+    e.target.value === ''
       ? checkValue.status = false
       : checkValue.status = true
     props.chekedInputs(checkValue)

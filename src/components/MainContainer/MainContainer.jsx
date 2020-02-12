@@ -20,8 +20,11 @@ const MainContainer = () => {
         return <QuestionCkeckbox state={qsn} key={index} num={index} />
       case 'select':
         return <QuestionSelect state={qsn} key={index} num={index} />
+      default:
+        break
     }
   })
+
   return (
     <form className="form">
       <div className="form__container">

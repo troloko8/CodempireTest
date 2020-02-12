@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 const inputСheck = (e, checkValue) => {
   const el = e.target.closest('.question').children;
 
-
   for (let i = 1; i < el.length; i++) {
     if (el[i].children[0].children[0].checked) {
       checkValue.status = true
@@ -33,17 +32,11 @@ function QuestionCkeckbox(props) {
     const input = e.target
 
     if (input.value === 'true') {
-      input.checked == true
+      input.checked === true
         ? props.checkingAnswer(1)
         : props.checkingAnswer(-1)
     }
   }
-
-  // useEffect(() => {
-  //   return () => {
-  //     props.checkingAnswer(localStorage.getItem(`checkboxCurrent${props.state.num}`))
-  //   }
-  // }, [])
 
   const opitons = props.state.answer,
     answers = opitons.map((ans, index) => {

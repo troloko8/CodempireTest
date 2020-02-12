@@ -26,15 +26,6 @@ function Buttons(props) {
             : "/result"
         }
       >Ответить</Link>
-      {/* <Link
-        className="form__button"
-        onClick={toggleModal}
-        to={
-          props.modal.status == true
-            ? "/"
-            : "/result"
-        }
-      >Ответить</Link> */}
       <a
         className="form__button"
       >Очистить</a>

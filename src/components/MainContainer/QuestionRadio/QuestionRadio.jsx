@@ -38,10 +38,6 @@ function QuestionRadio(props) {
   }
   localStorage.setItem('radioCurrent', counterAnswers)
 
-  // useEffect(() => {
-  //   if (props.modal.inputStatus === true) props.checkingAnswer(counterAnswers)
-  // }, [props.modal.inputStatus])
-
   useEffect(() => {
     return () => {
       props.checkingAnswer(localStorage.getItem('radioCurrent'))
