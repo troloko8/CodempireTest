@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CodempirTest/static/css/main.7d56b26a.chunk.css",
+    "main.js": "/CodempirTest/static/js/main.0a0dfddc.chunk.js",
+    "main.js.map": "/CodempirTest/static/js/main.0a0dfddc.chunk.js.map",
+    "runtime-main.js": "/CodempirTest/static/js/runtime-main.fe26bd13.js",
+    "runtime-main.js.map": "/CodempirTest/static/js/runtime-main.fe26bd13.js.map",
+    "static/js/2.35114745.chunk.js": "/CodempirTest/static/js/2.35114745.chunk.js",
+    "static/js/2.35114745.chunk.js.map": "/CodempirTest/static/js/2.35114745.chunk.js.map",
+    "index.html": "/CodempirTest/index.html",
+    "precache-manifest.0f4553090a3e7d61d8d3fb99c2cd5aa7.js": "/CodempirTest/precache-manifest.0f4553090a3e7d61d8d3fb99c2cd5aa7.js",
+    "service-worker.js": "/CodempirTest/service-worker.js",
+    "static/css/main.7d56b26a.chunk.css.map": "/CodempirTest/static/css/main.7d56b26a.chunk.css.map",
+    "static/js/2.35114745.chunk.js.LICENSE.txt": "/CodempirTest/static/js/2.35114745.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe26bd13.js",
+    "static/js/2.35114745.chunk.js",
+    "static/css/main.7d56b26a.chunk.css",
+    "static/js/main.0a0dfddc.chunk.js"
+  ]
+}
